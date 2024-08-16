@@ -50,7 +50,7 @@ git push
 <input type="checkbox"> "https://username.github.io/" 접속
 <img src = '/assets/img/20240816hellopage.png' > 
 
-<h2> Next >></h2>
+<h1> Next >></h1>
 블로그에 적용할 테마를 찾고 적용하는 방법을 알아보겠습니다!
 
 
