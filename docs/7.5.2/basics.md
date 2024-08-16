@@ -215,7 +215,7 @@ For reference, the layout/order of content on the welcome page looks like:
 You can create a welcome page by creating a new markdown file and setting the layout to `welcome` in the front matter.
 
 ~~~yml
-# file: index.md
+# file: index.html
 ---
 layout: welcome
 title:  Welcome
@@ -227,7 +227,7 @@ Without further configuration, the welcome page will show the two most recent pr
 However, the welcome layout supports selecting specific projects and posts, by adding to the front matter, e.g.:
 
 ~~~yml
-# file: index.md
+# file: index.html
 ---
 layout:            welcome
 title:             Welcome
