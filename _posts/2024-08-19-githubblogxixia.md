@@ -1,26 +1,34 @@
 ---
 layout: post
-title: Github 블로그 만들기 (Hydejack 테마) - [2]
+title: Github 블로그 만들기 (xixia 테마) - [1]
 description: >
   테마 적용
 categories: github_blog
-tags: Github_블로그_만들기_(Hydejack테마)
+tags: Github_블로그_만들기_(xixia테마)
 ---
-여러 테마들이 있지만 저는 Hydejack 테마 사용를 사용하겠습니다.
-(테마별 디테일이 다르긴 하지만 큰 틀에서는 동일)
+github blog를 만들 때, 처음에 hydejack 테마를 사용하였는데 사이드바 메뉴 하위에 서브메뉴들이 필요할 것 같더라고요,, <br><br>
+일단 찾아보다가 hydejack 테마에 서브메뉴를 추가하는게 어려울 것 같아서 테마를 바꾸기로 했습니다! <br><br>
+바꾼 테마는  <a href="http://jekyllthemes.org/themes/xixia/">Xixia</a> 테마입니다! <br><br>
+대충 둘러보니깐 충분히 서브메뉴를 만들 수 있을 것 같아서 삽질을 시작했습니다! <br><br>
+이번 포스팅에서는 <b>메뉴바 생성 및 서브메뉴 생성</b>에 대해서만 알아보겠습니다. <br><br>
+github repository 생성, 테마 입혀서 local과 github.io에 띄우는 건 hydejack 테마와 동일 하니깐 이전 포스팅을 참고해 주세요.
+<br>
+<a href="{{ site.baseurl }}/github_blog/2024/08/13/githubblog1.html">
+<span style="font-weight: bold; color: #007bff; font-size: 15px;">github repository 생성  </span>
+</a>
+<br>
+<a href="{{ site.baseurl }}/github_blog/2024/08/16/githubblog2.html">
+<span style="font-weight: bold; color: #007bff; font-size: 15px;">테마 입혀서 local과 github.io에 띄우기  </span>
+</a>
 
-그 전 Jekyll(지킬)과 Ruby(루비)가 필수입니다.
-저도 블로그 만들면서 처음 보았기 때문에 chatgpt한테 도움을 받았습니다!
+![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819newmenusubmenu.png)
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816jekyllruby.png)
 
-요약하자면 github 블로그는 Jekyll이 Ruby로 정적 사이트 생성하고, 로컬에서 Jekyll 서버를 실행해서 개발하면 github에 push를
-하지 않고 실시간으로 결과를 확인 할 수 있기 때문에 Jekyll(지킬)과 Ruby(루비)가 필수입니다.
 <br><br>
- 
-## Step 1. 테마 선택
 
-<input type="checkbox"> http://jekyllthemes.org/ 에서 테마 선택 후 다운
+## Step 1. _config.yml 설정
+
+<input type="checkbox"> http://jekyllthemes.org/ 에서 테마 선택 후 다운, local에서 띄우기
 
 ![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816hydejackdownload.png)
 

@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Github 블로그 만들기 (Hydejack 테마) - [3]
+title: github 블로그 만들기 (markdown 문법)
 description: >
-  페이지 만들기 및 사이드바 메뉴 추가
+  이미지 추가, 코드 박스, 글 크기 등등
 categories: github_blog
-tags: Github_블로그_만들기_(Hydejack테마)
+tags: markdown_문법
 ---
 
-> 이번에는 페이지 및 사이드바 메뉴 추가에 대해 알아보도록 하겠습니다. <br>
-> layout 종류는 _layout 폴더 하위에 .html로 구성되어 있습니다.
+> 이번에는 이미지 추가, 코드 박스, 글 크기 등등 페이지를 만들 때 사용하는 markdown 문법들에 대해 소개하겠습니다.
 
-## Step 1. 사이드바 메뉴 추가 
+<h2>Step 1. header </h2>
 사이드바 메뉴는 _featured_tags 폴더 하위에 위치하고 있습니다. _featured_tags 폴더 아래 *.md 파일로 작성하면 됩니다. <br>
 가장 중요한 것은 menu 값을 true 설정하는 것 입니다. true로 설정해야 사이드 메뉴에 나옵니다 
 <br><br>
@@ -35,12 +34,10 @@ description: >
 > description : 사이드바 메뉴 설명 
 
 <br>
+<img src = '/assets/img/20240819featuredtags.png' style="height:500px;">
+<img src = '/assets/img/20240816sidebarmenudescription.png'>
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819featuredtags.png){: style="height:500px;"}
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816sidebarmenudescription.png)
-
-
-## Step 2. 페이지 추가
+<h2>Step 2. 페이지 추가</h2>
 페이지 추가는 _posts 하위 폴더에 yyyy-mm-dd-pagename.md 형태로 파일을 생성합니다.
 
 yyyy-mm-dd-pagename.md 예시)
@@ -61,14 +58,10 @@ tags: [Github_blog_window]
 > 예) [Github_blog_window, data_engineer]
 
 <br>
+<img src = '/assets/img/20240819postfolder.png' style="height:500px;">
+<img src = '/assets/img/20240819postpagedesciption.png'>
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819postfolder.png){: style="height:500px;"}
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819postpagedesciption.png)
 
 
-<br><br>
-<a href="{{ site.baseurl }}/github_blog/2024/08/19/githubblogmarkdown.html">
-<span style="font-weight: bold; color: #007bff; font-size: 30px;"># Next &gt;&gt;&gt;&gt;&nbsp;&nbsp;  </span>
-</a>
-<br>
+<h1> Next >></h1>
 다음번에는 페이지를 생성할 때 자주 쓰는 markdown 문법들을 소개하겠습니다. 
