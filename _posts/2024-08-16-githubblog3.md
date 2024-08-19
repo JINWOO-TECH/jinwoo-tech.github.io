@@ -2,32 +2,40 @@
 layout: post
 title: github 블로그 만들기 - [3]
 description: >
-  github.io에서 확인
+  페이지 만들기 및 사이드바 메뉴 추가
 tags: [Github_blog_window]
 ---
-새로운 페이지 생성 및  
 
-<h2>Step 1. _config,yml 파일 수정</h2>
+> 이번에는 페이지 및 사이드바 메뉴 추가에 대해 알아보도록 하겠습니다. <br>
+> layout 종류는 _layout 폴더 하위에 .html로 구성되어 있습니다.
 
+<h2>Step 1. 사이드바 메뉴 추가 </h2>
+사이드바 메뉴는 _featured_tags 폴더 하위에 위치하고 있습니다. _featured_tags 폴더 아래 *.md 파일로 작성하면 됩니다. <br>
+가장 중요한 것은 menu 값을 true 설정하는 것 입니다. true로 설정해야 사이드 메뉴에 나옵니다 
+<br><br>
+
+예시)
 ```
-# url 설정 안할 시 테마 적용 안됨!
-url: https://<username>.github.io/
-
-# 사이드바 타이틀 
-title: JINWOO-TECH
-
-# 사이트바 타이틀 아래 설명
-description:           >
-  데이터엔지니어 
+--- 
+layout: list
+title: Github 블로그 만들기 for window
+slug: Github_blog_window
+menu: true
+order: 2
+description: >
+  나만의 Github 블로그 만들기 (Hydejack 테마 사용)
+---
 ```
-등등 설정을 해주시면 됩니다!
+> layout : 사이드바 메뉴인 경우 주로 list 사용 <br>
+> title : 사이드바 메뉴 이름 <br>
+> slug :  하위 페이지 묶을 tag명<br>
+> menu : 사이드바 메뉴 설정 여부, true로 설정 <br>
+> order : 사이드바 메뉴 위치 1인 경우가 제일 상위에 위치함 <br>
+> description : 사이드바 메뉴 설명 
 
-<img src = '/assets/img/20240816hydejackdownload.png'>
-
-
-<h2>Step 2. push후 확인</h2>
-git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 살짝 기다려야 됩니다! (이래서 local에서 실시간으로 볼 수 있게 jekyll 사용하는 듯)
 <br>
-<input type="checkbox"> https://username.github.io/ 에 접속
+<img src = '/assets/img/20240819featuredtags.png'>
+<img src = '/assets/img/20240816sidebarmenudescription.png'>
 
-<img src = '/assets/img/20240816firststatepage.png'>
+<h2>Step 2. 페이지 추가</h2>
+페이지 추가는 _posts 하위 폴더에 yyyy-mm-dd-pagename.md 형태로 파일을 생성해

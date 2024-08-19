@@ -88,9 +88,6 @@ description:           >
 ```
 등등 설정을 해주시면 됩니다!
 
-<img src = '/assets/img/20240816hydejackdownload.png'>
-
-
 <h2>Step 5. push후 확인</h2>
 git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 살짝 기다려야 됩니다! (이래서 local에서 실시간으로 볼 수 있게 jekyll 사용하는 듯)
 <br>
