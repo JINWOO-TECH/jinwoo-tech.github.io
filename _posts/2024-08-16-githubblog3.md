@@ -14,7 +14,7 @@ tags: [Github_blog_window]
 가장 중요한 것은 menu 값을 true 설정하는 것 입니다. true로 설정해야 사이드 메뉴에 나옵니다 
 <br><br>
 
-예시)
+*.md 예시)
 ```
 --- 
 layout: list
@@ -34,8 +34,34 @@ description: >
 > description : 사이드바 메뉴 설명 
 
 <br>
-<img src = '/assets/img/20240819featuredtags.png'>
+<img src = '/assets/img/20240819featuredtags.png' style="height:500px;">
 <img src = '/assets/img/20240816sidebarmenudescription.png'>
 
 <h2>Step 2. 페이지 추가</h2>
-페이지 추가는 _posts 하위 폴더에 yyyy-mm-dd-pagename.md 형태로 파일을 생성해
+페이지 추가는 _posts 하위 폴더에 yyyy-mm-dd-pagename.md 형태로 파일을 생성합니다.
+
+yyyy-mm-dd-pagename.md 예시)
+```
+---
+layout: post
+title: github 블로그 만들기 - [1]
+description: >
+  github repository 생성 및 USERNAME.github.io에서 블로그 확인하기
+tags: [Github_blog_window]
+---
+```
+> layout : 주로 post 사용 <br>
+> title : 페이지 이름 <br>
+> description : 페이지 설명 <br>
+> tags : 상위 페이지에 해당하는 slug 명 <br>
+> -> 중복 사용 가능 <br>
+> 예) [Github_blog_window, data_engineer]
+
+<br>
+<img src = '/assets/img/20240819postfolder.png' style="height:500px;">
+<img src = '/assets/img/20240819postpagedesciption.png'>
+
+
+
+<h1> Next >></h1>
+다음번에는 페이지를 생성할 때 자주 쓰는 markdown 문법들을 소개하겠습니다. 
