@@ -10,7 +10,8 @@ url: https://jinwoo-tech.github.io/
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: '/jinwoo-tech'
+#baseurl: '/jinwoo-tech'
+baseurl: ''
 ## default date_format
 date_format: 
   title: "%B-%-d-%Y"
