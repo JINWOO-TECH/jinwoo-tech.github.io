@@ -36,8 +36,8 @@ description: >
 
 <br>
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819featuredtags.png){: style="height:500px;"}
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816sidebarmenudescription.png)
+![Xixia](/assets/images/github_blog/20240819featuredtags.png){: style="height:500px;"}
+![Xixia](/assets/images/github_blog/20240816sidebarmenudescription.png)
 
 
 ## Step 2. 페이지 추가
@@ -62,8 +62,8 @@ tags: [Github_blog_window]
 
 <br>
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819postfolder.png){: style="height:500px;"}
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240819postpagedesciption.png)
+![Xixia](/assets/images/github_blog/20240819postfolder.png){: style="height:500px;"}
+![Xixia](/assets/images/github_blog/20240819postpagedesciption.png)
 
 
 <br><br>
@@ -72,3 +72,10 @@ tags: [Github_blog_window]
 </a>
 <br>
 다음번에는 페이지를 생성할 때 자주 쓰는 markdown 문법들을 소개하겠습니다. 
+<br><br>
+<div style="background-color: yellow;">
+사용하다보니 Hydejack 테마보다 다른 테마를 사용하는게 좋아 보여서 테마를 바꿨습니다! 
+</div>
+<a href="{{ site.baseurl }}/github_blog/2024/08/19/githubblogmarkdown.html">
+Github 블로그 만들기 (xixia 테마) - [1]
+</a>

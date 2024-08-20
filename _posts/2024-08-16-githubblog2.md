@@ -12,7 +12,7 @@ tags: Github_블로그_만들기_(Hydejack테마)
 그 전 Jekyll(지킬)과 Ruby(루비)가 필수입니다.
 저도 블로그 만들면서 처음 보았기 때문에 chatgpt한테 도움을 받았습니다!
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816jekyllruby.png)
+![Xixia](/assets/images/github_blog/20240816jekyllruby.png)
 
 요약하자면 github 블로그는 Jekyll이 Ruby로 정적 사이트 생성하고, 로컬에서 Jekyll 서버를 실행해서 개발하면 github에 push를
 하지 않고 실시간으로 결과를 확인 할 수 있기 때문에 Jekyll(지킬)과 Ruby(루비)가 필수입니다.
@@ -22,12 +22,12 @@ tags: Github_블로그_만들기_(Hydejack테마)
 
 <input type="checkbox"> http://jekyllthemes.org/ 에서 테마 선택 후 다운
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816hydejackdownload.png)
+![Xixia](/assets/images/github_blog/20240816hydejackdownload.png)
 
 <br><br>
 <input type="checkbox"> 다운 받은 파일 전체 복붙 
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816hydejackpaste.png)
+![Xixia](/assets/images/github_blog/20240816hydejackpaste.png)
 <br><br>
 
 ## Step 2. Ruby 설치 및 인코딩 설정
@@ -38,7 +38,7 @@ Ruby는 프로그래밍 언어라고 합니다. jekyll은 ruby로 만들어져 �
 
 <input type="checkbox"> https://rubyinstaller.org/downloads/ 사이트 접속 후 Ruby 다운로드 & 설치
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816rubydown.png)
+![Xixia](/assets/images/github_blog/20240816rubydown.png)
 <br><br>
 
 <input type="checkbox"> ruby 명령어창 실행 및 인코딩 설정
@@ -48,11 +48,11 @@ Ruby는 프로그래밍 언어라고 합니다. jekyll은 ruby로 만들어져 �
 cd <폴더>
 chcp 65001
 ```
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816rubycmdstart.png)
+![Xixia](/assets/images/github_blog/20240816rubycmdstart.png)
 <br><br>
 
 chcp 65001 명령어 입력 후 아래 사진 나오면 인코딩 설정 완료
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816rubyencoding.png)
+![Xixia](/assets/images/github_blog/20240816rubyencoding.png)
 <br><br>
 
 ## Step 3. jekyll 설치 및 사이트 생성 
@@ -78,7 +78,7 @@ bundle exec jekyll serve
 
 <input type="checkbox"> local에서 블로그 확인 (http://127.0.0.1:4000/ 또는 http://localhost:4000/)
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816localhoststart.png)
+![Xixia](/assets/images/github_blog/20240816localhoststart.png)
 
 <br><br>
 
@@ -103,7 +103,7 @@ git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 
 <br>
 <input type="checkbox"> https://username.github.io/ 에 접속
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816firststatepage.png)
+![Xixia](/assets/images/github_blog/20240816firststatepage.png)
 
 <br><br>
 <a href="{{ site.baseurl }}/github_blog/2024/08/16/githubblog3.html">
@@ -120,11 +120,11 @@ git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 
 
 # 에러 처리 
 ### jekyll new ./  명령어 작동시 에러 처리 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816jekyllnewerror.png)
+![Xixia](/assets/images/github_blog/20240816jekyllnewerror.png)
 <br><br>
 
 해결 방법
 > Gemfile.lock 파일 삭제 <br>
 > jekyll new ./ --force 실행
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816jekyllnewerror2.png)
+![Xixia](/assets/images/github_blog/20240816jekyllnewerror2.png)

@@ -12,8 +12,9 @@ description: github repository 생성 및 USERNAME.github.io에서 블로그 확
 
 <input type="checkbox"> 개인 git repository 접속 및 repository 생성 <br>(Repository name : username.github.io 의 형식)
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240813creategitrepository.png) <br>
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240813gitrepositoryname.png)
+![Xixia](/assets/images/github_blog/20240813creategitrepository.png) <br>
+
+![Xixia](/assets/images/github_blog/20240813gitrepositoryname.png)
 <br><br>
 
 ## Step 2. github clone 하기
@@ -23,7 +24,7 @@ Github 홈페이지에서 직접 코드를 추가하고 수정하는 것도 가�
 
 <input type="checkbox"> code버튼 클릭 후 URL 복사  
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240814gitrepositoryclone.png)
+![Xixia](/assets/images/github_blog/20240814gitrepositoryclone.png)
 <br><br>
 
 <input type="checkbox"> 원하는 폴더 위치에서 git clone
@@ -43,17 +44,17 @@ git commit -m "<커밋 메시지>"
 git push
 ```
 
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816hellogithub.png)
+![Xixia](/assets/images/github_blog/20240816hellogithub.png)
 <br><br>
 
 ## Step 4. 페이지 확인  
 <input type="checkbox"> "https://username.github.io/" 접속
-![Xixia]({{ site.baseurl }}//assets/images/github_blog/20240816hellopage.png)
+![Xixia](/assets/images/github_blog/20240816hellopage.png)
 
 <br><br>
 <br><br>
 
-<a href="{{ site.baseurl }}/github_blog/2024/08/16/githubblog2.html">
+<a href="/github_blog/2024/08/16/githubblog2.html">
 <span style="font-weight: bold; color: #007bff; font-size: 30px;"># Next &gt;&gt;&gt;&gt;&nbsp;&nbsp;  </span>
 </a>
 <br>
