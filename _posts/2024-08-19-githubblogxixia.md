@@ -26,113 +26,133 @@ github repository 생성, 테마 입혀서 local과 github.io에 띄우는 건 h
 
 <br><br>
 
-## Step 1. _config.yml 설정
-
-<input type="checkbox"> http://jekyllthemes.org/ 에서 테마 선택 후 다운, local에서 띄우기
-
-![Xixia](/assets/images/github_blog/20240816hydejackdownload.png)
-
-<br><br>
-<input type="checkbox"> 다운 받은 파일 전체 복붙 
-
-![Xixia](/assets/images/github_blog/20240816hydejackpaste.png)
-<br><br>
-
-## Step 2. Ruby 설치 및 인코딩 설정
-
-Ruby는 프로그래밍 언어라고 합니다. jekyll은 ruby로 만들어져 있어 jekyll설치 전 먼저 설치하겠습니다.
-
-저는 3.3.1-1 버전을 설치하였습니다!
-
-<input type="checkbox"> https://rubyinstaller.org/downloads/ 사이트 접속 후 Ruby 다운로드 & 설치
-
-![Xixia](/assets/images/github_blog/20240816rubydown.png)
-<br><br>
-
-<input type="checkbox"> ruby 명령어창 실행 및 인코딩 설정
-본인의 폴더로 이동 및 인코딩
+## Step 1. header.html 파일 수정
+<input type="checkbox"> _includes 폴더 하위 header.html 코드의 아래 부분을 수정하거나 추가해 줍니다
 
 ```
-cd <폴더>
-chcp 65001
+# 추가 할 코드
+<li class="active"><a href="{{ site.baseurl }}/{원하는 메뉴명}.html">{원하는 메뉴명}</a></li>
+
+# 위에 추가 할 코드 넣는 위치
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        {% assign trans = site.data.values[site.lan] %}
+        <li class="active"><a href="{{ site.baseurl }}/">{{ trans.home }}</a></li>
+        <li class="active"><a href="{{ site.baseurl }}/github_blog.html">{{ trans.github_blog }}</a></li>
+        <li class="active"><a href="{{ site.baseurl }}/archive.html">{{ trans.archive }}</a></li>
+        <li class="active"><a href="{{ site.baseurl }}/categories.html">{{ trans.categories }}</a></li>
+        <li class="active"><a href="{{ site.baseurl }}/tags.html">{{ trans.tags }}</a></li>
+        <li class="active"><a href="{{ site.baseurl }}/about.html">{{ trans.about }}</a></li>
+    </ul>
+</div>
 ```
-![Xixia](/assets/images/github_blog/20240816rubycmdstart.png)
-<br><br>
-
-chcp 65001 명령어 입력 후 아래 사진 나오면 인코딩 설정 완료
-![Xixia](/assets/images/github_blog/20240816rubyencoding.png)
-<br><br>
-
-## Step 3. jekyll 설치 및 사이트 생성 
-<input type="checkbox"> jekyll 및 bundle 설치 (ruby 명령어창)
-
-```
-gem install jekyll bundler
-gem install webrick
-```
-<br><br>
-
-<input type="checkbox"> jekyll생성 및 서버 동작 (ruby 명령어창)
-
-```
-# jekyll생성
-jekyll new ./
- 
-#서버 동작
-bundle install
-bundle exec jekyll serve
-```
-<br><br>
-
-<input type="checkbox"> local에서 블로그 확인 (http://127.0.0.1:4000/ 또는 http://localhost:4000/)
-
-![Xixia](/assets/images/github_blog/20240816localhoststart.png)
-
-<br><br>
-
-## Step 4. _config,yml 파일 수정
-
-```
-# url 설정 안할 시 테마 적용 안됨!
-url: https://<username>.github.io/
-
-# 사이드바 타이틀 
-title: JINWOO-TECH
-
-# 사이트바 타이틀 아래 설명
-description:           >
-  데이터엔지니어 
-```
-등등 설정을 해주시면 됩니다!
-<br><br>
-
-## Step 5. push후 확인
-git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 살짝 기다려야 됩니다! (이래서 local에서 실시간으로 볼 수 있게 jekyll 사용하는 듯)
 <br>
-<input type="checkbox"> https://username.github.io/ 에 접속
-
-![Xixia](/assets/images/github_blog/20240816firststatepage.png)
+코드를 수정했으면 상단 메뉴에 추가한 메뉴가 생성이 됩니다!
 
 <br><br>
-<a href="{{ site.baseurl }}/github_blog/2024/08/16/githubblog3.html">
+
+## Step 2. 원하는 메뉴.html 파일 생성 및 내용추가 
+"원하는 메뉴.html"은 메뉴를 클릭하여 페이지로 이동 하였을 때 나오는 화면입니다.
+<br><br>
+<input type="checkbox"> username.github.io 폴더 하위에 {원하는 메뉴명}.html 파일 생성해 줍니다 <br>
+(위치 : username.github.io/{원하는 메뉴명}.html)
+<br><br>
+
+<input type="checkbox"> {원하는 메뉴명}.html 수정<br><br>
+저는 일단 기존의 categories, tags 메뉴처럼 나오길 만들기를 원했습니다. 
+그래서 _post 하위에 있는 페이지들이 어떻게 사용되는지 확인했습니다. 
+아래 처럼 tags: {tag명} , categories: {categories 명}으로 되어 있었습니다.
+
+```
+---
+layout: post
+title:  "Readme of Jekyll!"
+date:   2017-09-05 14:10:51 +0800
+categories: Jekyll
+tags: Jekyll
+description: The read me page of Jekyll.
+---
+```
+
+<br> 그래서 당연히 아래 처럼 github_blog: 태그명 이런식으로 사용하면 되겠구나 했습니다. 그리고 "원하는 메뉴.html"에서 github_blog로 받으면 되겠구나 했습니다. <br>
+
+하지만 바로 에러가 나왔습니다.. "Liquid Exception: Liquid error (line 2): Cannot sort a null object. in github_blog.html" 이런 에러가 나왔습니다. <br>
+
+site.github_blog식으로 사용하려면 변수가 정의가 되어 있어야 한다는데 여러가지 방법 시도하다가 변수를 정의하는 것은 실패하고 다른 방법으로 분류하기로 했습니다. 
+
+```
+# _post 하위에 작성한 페이지 (yyyy-mm-dd-title.md)
+---
+layout: post
+title:  "Readme of Jekyll!"
+date:   2017-09-05 14:10:51 +0800
+categories: Jekyll
+tags: Jekyll
+github_blog: first_github
+description: The read me page of Jekyll.
+---
+
+# "원하는 메뉴.html" 에러난 부분 
+{% raw %}
+{% assign sortedgithubbloges = site.github_blog | sort %}
+{% endraw %}
+
+```
+<br>
+
+<div>
+    <span style="background-color: yellow;">나만의 메뉴 분류 role</span>
+</div>
+
+
+> 1. categories는 메뉴에 따라 분류할 수 있도록 작성
+> 2. tags는 메뉴에 따라 분류 후 그 안에 소제목
+
+![Xixia](/assets/images/github_blog/20240820menurole.png)
+
+<br><br>
+이런 룰을 바탕으로 원하는 메뉴.html을 만들었습니다.<br>
+아래 코드에서 {categories 메뉴}만 알맞게 수정하면 됩니다.
+
+```
+<div class="well article">
+{% raw %}
+  {% assign github_blog_posts = site.posts | where: "categories", "{categories 메뉴}" %}
+  {% assign tags = "" | split: "" %}
+
+  {% for post in github_blog_posts %}
+    {% assign post_tags = post.tags %}
+    {% for tag in post_tags %}
+      {% unless tags contains tag %}
+        {% assign tags = tags | push: tag %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort %}
+
+  {% for tag in sorted_tags %}
+    <h2 id="tag-{{ tag | slugify }}">{{ tag | capitalize }}</h2>
+    <ul>
+      {% for post in github_blog_posts %}
+        {% if post.tags contains tag %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+ {% endraw %}
+</div>
+```
+
+
+<br><br>
+<a href="{{ site.baseurl }}/github_blog/2024/08/19/githubblogmarkdown.html">
 <span style="font-weight: bold; color: #007bff; font-size: 30px;"># Next &gt;&gt;&gt;&gt;&nbsp;&nbsp;  </span>
 </a>
 <br>
-테마 그대로 github.io에 띄우는 방법을 알아봤는데요, 테마 별 설정하는게 조금씩 다를 수 있으니 README.md 등등 파일을 꼭 읽어 주세요! 
-<br> 다음은 blog 새로운 페이지 및 사이드바 메뉴 설정에 대해 알아보겠습니다.
+다음번에는 페이지를 생성할 때 자주 쓰는 markdown 문법들을 소개하겠습니다. 
 
-<br><br>
-
-<hr style="border-width:1px 0 0 0; border-color:#000;">
-<hr style="border-width:1px 0 0 0; border-color:#000;">
-
-# 에러 처리 
-### jekyll new ./  명령어 작동시 에러 처리 
-![Xixia](/assets/images/github_blog/20240816jekyllnewerror.png)
-<br><br>
-
-해결 방법
-> Gemfile.lock 파일 삭제 <br>
-> jekyll new ./ --force 실행
-
-![Xixia](/assets/images/github_blog/20240816jekyllnewerror2.png)
