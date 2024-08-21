@@ -1,5 +1,16 @@
-- url: "http://xixia.info"
-  title: "Xixia"
+- url: "https://github.com/JINWOO-TECH"
+  title: "GitHub"
+  class : "icon-jjw-github"
 
-- url: "https://github.com/zxixia/jekyll-xixia"
-  title: "Jekyll-Xixia"  
+- url: "mailto:<kev12@naver.com>"
+  title: "Portfolio"
+  class : "icon-jjw-portfolio"
+
+- url: "https://www.youtube.com/@user-rf7ru2oq4w"
+  title: "YouTube"
+  class : "icon-jjw-youtube"
+
+- url: "mailto:<kev12@naver.com>"
+  title: "Email to kev12@naver.com"
+  class : "icon-jjw-mail"
+

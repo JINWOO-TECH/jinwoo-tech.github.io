@@ -401,3 +401,35 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-vk:before{content:"\f189";}
 .icon-weibo:before{content:"\f18a";}
 .icon-renren:before{content:"\f18b";}
+.icon-jjw-mail::before {
+  content: ''; /* 비어 있는 콘텐츠로 가상 요소 생성 */
+  background-image: url('../css/logo/jjw_mail.png'); /* 이미지 파일 경로 */
+  width: 40px; /* 아이콘의 너비 */
+  height: 40px; /* 아이콘의 높이 */
+  display: inline-block;
+  background-size: contain;
+}
+.icon-jjw-github::before {
+  content: ''; /* 비어 있는 콘텐츠로 가상 요소 생성 */
+  background-image: url('../css/logo/jjw_github.png'); /* 이미지 파일 경로 */
+  width: 40px; /* 아이콘의 너비 */
+  height: 40px; /* 아이콘의 높이 */
+  display: inline-block;
+  background-size: contain;
+}
+.icon-jjw-youtube::before {
+  content: ''; /* 비어 있는 콘텐츠로 가상 요소 생성 */
+  background-image: url('../css/logo/jjw_youtube.png'); /* 이미지 파일 경로 */
+  width: 40px; /* 아이콘의 너비 */
+  height: 40px; /* 아이콘의 높이 */
+  display: inline-block;
+  background-size: contain;
+}
+.icon-jjw-portfolio::before {
+  content: ''; /* 비어 있는 콘텐츠로 가상 요소 생성 */
+  background-image: url('../css/logo/jjw_portfolio.png'); /* 이미지 파일 경로 */
+  width: 40px; /* 아이콘의 너비 */
+  height: 40px; /* 아이콘의 높이 */
+  display: inline-block;
+  background-size: contain;
+}
