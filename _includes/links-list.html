@@ -8,10 +8,11 @@
   {% assign url = link.url | default:'' %}
   {% assign title = link.title | default:'' %}
   {% assign class = link.class | default:'icon-link' %}
-
-  <a href="{{ url }}" title="{{ title }}" class="no-mark-external">
-    <span class="{{ class }}" style="font-size: 45px; "></span>
-    <span class="sr-only">{{ title }}</span>
-  </a>
+  <ol style="padding-left: 1px; text-align: left;">
+    <a href="{{ url }}" title="{{ title }}" class="no-mark-external">
+      <span class="{{ class }}" style="font-size: 40px; "></span>
+      <span>  &nbsp;&nbsp;{{ title }}</span>
+    </a>
+  </ol>
 
   {% endfor %}
