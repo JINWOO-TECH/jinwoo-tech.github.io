@@ -47,3 +47,12 @@ feed.xml는 웹사이트의 RSS 또는 Atom 피드를 제공하는 XML 파일입
 <br><br>
 
 ## step 4. 검색엔진 등록하기
+
+### 4.1 구글(Google)
+<input type="checkbox"> [Google Search Console](https://search.google.com/search-console/welcome) 접속 후 URL 접두어에 https://{username}.github.io 입력
+<br>
+![Xixia](/assets/images/github_blog/20240822googleseopage.png)
+<br><br>
+<input type="checkbox"> 해당 HTML 파일 {username}.github.io 하위 폴더에 저장 후 git push
+<br>
+![Xixia](/assets/images/github_blog/20240822googleseopageconfirm.png)
