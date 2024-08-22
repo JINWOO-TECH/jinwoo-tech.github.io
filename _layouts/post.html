@@ -18,29 +18,28 @@ layout: default
     {% endif %}
     <div class="post-content">
     {{ content }}
-    <hr style="border-top:1px solid #28323C;"/>
-
-    <!-- tags and categories under post -->
-    {% unless page.categories == empty %}
-    <ul class="list-unstyled list-inline">
-      <li><i class="icon-folder-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% if categories_list.first[0] == null %}
-        {% for category in categories_list %} 
-            <li class="icon-style"><a href="{{ site.baseurl }}/categories.html">
-                {{ category | join: "/" }} <span>({{ site.categories[category].size }})</span>
-                {% unless forloop.last %},{% endunless %}
-            </a></li>
-        {% endfor %}
-      {% else %}
-        {% for category in categories_list %} 
-            <li class="icon-style"><a href="{{ site.baseurl }}/categories.html">
-                {{ category[0] | join: "/" }} <span>/{{ category[1].size }})</span>
-            </a></li>
-        {% endfor %}
-      {% endif %}
-    </ul>
-    {% endunless %}  
+        <br>
+<!--    &lt;!&ndash; tags and categories under post &ndash;&gt;-->
+<!--    {% unless page.categories == empty %}-->
+<!--    <ul class="list-unstyled list-inline">-->
+<!--      <li><i class="icon-folder-open"></i></li>-->
+<!--      {% assign categories_list = page.categories %}-->
+<!--      {% if categories_list.first[0] == null %}-->
+<!--        {% for category in categories_list %} -->
+<!--            <li class="icon-style"><a href="{{ site.baseurl }}/categories.html">-->
+<!--                {{ category | join: "/" }} <span>({{ site.categories[category].size }})</span>-->
+<!--                {% unless forloop.last %},{% endunless %}-->
+<!--            </a></li>-->
+<!--        {% endfor %}-->
+<!--      {% else %}-->
+<!--        {% for category in categories_list %} -->
+<!--            <li class="icon-style"><a href="{{ site.baseurl }}/categories.html">-->
+<!--                {{ category[0] | join: "/" }} <span>/{{ category[1].size }})</span>-->
+<!--            </a></li>-->
+<!--        {% endfor %}-->
+<!--      {% endif %}-->
+<!--    </ul>-->
+<!--    {% endunless %}  -->
 
     {% unless page.tags == empty %}
     <ul class="list-unstyled list-inline">
@@ -68,29 +67,42 @@ layout: default
       {% endif %}
       {% assign tags_list = nil %}
     </ul>
-    {% endunless %}  
-
-    <!-- edit under post -->
-    {% unless page.github_blog == empty %}
-    <ul class="list-unstyled list-inline">
-      <li><i class="icon-folder-open"></i></li>
-      {% assign githubblog_list = page.githubblogs %}
-      {% if githubblog_list.first[0] == null %}
-        {% for githubblog in githubblog_list %}
-            <li class="icon-style"><a href="{{ site.baseurl }}/github_blog.html">
-                {{ githubblog | join: "/" }} <span>({{ site.githubblogs[githubblog].size }})</span>
-                {% unless forloop.last %},{% endunless %}
-            </a></li>
-        {% endfor %}
-      {% else %}
-        {% for githubblog in githubblog_list %}
-            <li class="icon-style"><a href="{{ site.baseurl }}/github_blog.html">
-                {{ githubblog[0] | join: "/" }} <span>/{{ githubblog[1].size }})</span>
-            </a></li>
-        {% endfor %}
-      {% endif %}
-    </ul>
     {% endunless %}
+
+<!--    &lt;!&ndash; edit under post &ndash;&gt;-->
+<!--    {% unless page.github_blog == empty %}-->
+<!--    <ul class="list-unstyled list-inline">-->
+<!--      <li><i class="icon-folder-open"></i></li>-->
+<!--      {% assign githubblog_list = page.githubblogs %}-->
+<!--      {% if githubblog_list.first[0] == null %}-->
+<!--        {% for githubblog in githubblog_list %}-->
+<!--            <li class="icon-style"><a href="{{ site.baseurl }}/github_blog.html">-->
+<!--                {{ githubblog | join: "/" }} <span>({{ site.githubblogs[githubblog].size }})</span>-->
+<!--                {% unless forloop.last %},{% endunless %}-->
+<!--            </a></li>-->
+<!--        {% endfor %}-->
+<!--      {% else %}-->
+<!--        {% for githubblog in githubblog_list %}-->
+<!--            <li class="icon-style"><a href="{{ site.baseurl }}/github_blog.html">-->
+<!--                {{ githubblog[0] | join: "/" }} <span>/{{ githubblog[1].size }})</span>-->
+<!--            </a></li>-->
+<!--        {% endfor %}-->
+<!--      {% endif %}-->
+<!--    </ul>-->
+<!--    {% endunless %}-->
+    <hr style="border-top:1px solid #28323C;"/>
+
+    <!-- S 댓글기능 추가 S  -->
+    <script src="https://utteranc.es/client.js"
+    repo="JINWOO-TECH/blog_comment"
+    issue-term="pathname"
+    label="🗨️Comment🗨️"
+    theme="github-dark-orange"
+    crossorigin="anonymous"
+    async>
+    </script>
+    <!-- E 댓글기능 추가 E  -->
+
 
     </div>
     {% if page.comments %}
