@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github 블로그 만들기 (seo 적용)
+title: Github 블로그 만들기 (검색엔진 등록)
 description: >
   테마 적용
 categories: github_blog
