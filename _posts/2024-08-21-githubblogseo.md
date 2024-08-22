@@ -49,10 +49,29 @@ feed.xml는 웹사이트의 RSS 또는 Atom 피드를 제공하는 XML 파일입
 ## step 4. 검색엔진 등록하기
 
 ### 4.1 구글(Google)
-<input type="checkbox"> [Google Search Console](https://search.google.com/search-console/welcome) 접속 후 URL 접두어에 https://{username}.github.io 입력
+<input type="checkbox"> [Google Search Console](https://search.google.com/search-console/welcome) 접속 후 URL 접두어에 `https://{username}.github.io` 입력
 <br>
 ![Xixia](/assets/images/github_blog/20240822googleseopage.png)
+
 <br><br>
-<input type="checkbox"> 해당 HTML 파일 {username}.github.io 하위 폴더에 저장 후 git push
+
+<input type="checkbox"> 해당 HTML 파일 {username}.github.io 하위 폴더에 저장 (이름 안바꾸고 그대로 넣으시면 됩니다) 후 git push
 <br>
 ![Xixia](/assets/images/github_blog/20240822googleseopageconfirm.png)
+
+<br><br>
+
+<input type="checkbox"> 소유권 확인 후 `속성으로 이동` 클릭 후 <br>
+<input type="checkbox"> 좌측메뉴 sitemaps > 새 사이트맵 추가에 `https://{username}.github.io/sitemap.xml` 입력 후 제출 <br>
+<input type="checkbox"> 제출된 사이트맵 상태 `성공` 확인
+<br>
+![Xixia](/assets/images/github_blog/20240822googleseopagecheck.png)
+
+![Xixia](/assets/images/github_blog/20240822googlesitemapadd.png)
+
+<br><br>
+
+### 4.1 네이버(Naver)
+<input type="checkbox"> [네이버 서치어드바이저](https://searchadvisor.naver.com/) 접속 <br>
+<input type="checkbox"> 웹마스터 도구 > 사이트 관리 > 사이트 등록 페이지에서 `https://{username}.github.io` 입력 <br>
+<input type="checkbox"> 해당 HTML 파일 {username}.github.io 하위 폴더에 저장 (이름 안바꾸고 그대로 넣으시면 됩니다) 후 git push
