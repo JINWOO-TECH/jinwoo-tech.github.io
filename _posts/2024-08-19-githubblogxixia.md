@@ -107,7 +107,7 @@ description: The read me page of Jekyll.
 <br>
 
 <div>
-    <span style="background-color: yellow;">나만의 메뉴 분류 role</span>
+    <span style="background-color: yellow;">나만의 메뉴 분류 rule</span>
 </div>
 
 
