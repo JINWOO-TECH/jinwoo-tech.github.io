@@ -16,7 +16,8 @@ tags: Github_블로그_만들기_(Hydejack테마)
 
 사이드바 메뉴는 _featured_tags 폴더 하위에 위치하고 있습니다. _featured_tags 폴더 아래 *.md 파일로 작성하면 됩니다. <br>
 가장 중요한 것은 menu 값을 true 설정하는 것 입니다. true로 설정해야 사이드 메뉴에 나옵니다 
-<br><br>
+<br>
+
 
 *.md 예시)
 ```
@@ -38,10 +39,10 @@ description: >
 > description : 사이드바 메뉴 설명 
 
 <br>
-
 ![Xixia](/assets/images/github_blog/20240819featuredtags.png){: style="height:500px;"}
 ![Xixia](/assets/images/github_blog/20240816sidebarmenudescription.png)
 
+<br><br>
 
 <h2>
     <span class = "jjw_h2_style">Step 2. 페이지 추가 </span>
@@ -79,9 +80,9 @@ tags: [Github_blog_window]
 <br>
 다음번에는 페이지를 생성할 때 자주 쓰는 markdown 문법들을 소개하겠습니다. 
 <br><br>
-<div style="background-color: yellow;">
-사용하다보니 Hydejack 테마보다 다른 테마를 사용하는게 좋아 보여서 테마를 바꿨습니다! 
-</div>
-<a href="{{ site.baseurl }}/github_blog/2024/08/19/githubblogmarkdown.html">
+<span style="background-color: yellow;">
+사용하다보니 Hydejack 테마보다 다른 테마를 사용하는게 좋아 보여서 테마를 바꿨습니다!
+<a href="{{ site.baseurl }}/github_blog/2024/08/19/githubblogxixia.html">
 Github 블로그 만들기 (xixia 테마) - [1]
 </a>
+</span>

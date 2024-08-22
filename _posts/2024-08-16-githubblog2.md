@@ -69,7 +69,7 @@ chcp 65001 명령어 입력 후 아래 사진 나오면 인코딩 설정 완료
 gem install jekyll bundler
 gem install webrick
 ```
-<br><br>
+<br>
 
 <input type="checkbox"> jekyll생성 및 서버 동작 (ruby 명령어창)
 
@@ -81,7 +81,7 @@ jekyll new ./
 bundle install
 bundle exec jekyll serve
 ```
-<br><br>
+<br>
 
 <input type="checkbox"> local에서 블로그 확인 (http://127.0.0.1:4000/ 또는 http://localhost:4000/)
 
@@ -111,8 +111,9 @@ description:           >
     <span class = "jjw_h2_style">Step 5. push후 확인 </span>
 </h2>
 
-git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 살짝 기다려야 됩니다! (이래서 local에서 실시간으로 볼 수 있게 jekyll 사용하는 듯)
+git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 살짝 기다려야 됩니다! (이래서 local에서 실시간으로 볼 수 있게 jekyll 사용하는 듯) 
 <br>
+
 <input type="checkbox"> https://username.github.io/ 에 접속
 
 ![Xixia](/assets/images/github_blog/20240816firststatepage.png)
