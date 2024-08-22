@@ -1,10 +1,10 @@
 ---
 layout: post
-title: github 블로그 만들기 (markdown 문법)
+title: Github 블로그 만들기 (markdown 문법)
 description: >
   이미지 추가, 코드 박스, 글 크기 등등
 categories: github_blog
-tags: markdown_문법
+tags: github_블로그_만들기_공통
 ---
 
 
@@ -52,40 +52,71 @@ tags: markdown_문법
 `~~~` 또는 <span style="color: red;" >```</span>  -> 코드 첫줄과 마지막 줄에 삽입
 
 ~~~
+~~~ㅤ
+code 박스
+~~~ㅤ
+~~~
+
+~~~
 code 박스
 ~~~
 
-## 4. 인용문
+또한 언어 별 문법 하이라이트를 할 수 있습니다
+`~~~` 또는 <span style="color: red;" >```</span> 첫줄에 언어를 입력해주세요
 
-`>` 인용문1 <br>
-`>>` 인용문2
+~~~
+~~~python
+a = "hello word"
+print(a)
+~~~ㅤ
+~~~
+
+~~~python
+a = "hello word"
+print(a)
+~~~
+
+## 4. 인용문
+~~~
+> 인용문1 
+>> 인용문2
+>>> 인용문2
+~~~
 
 > 인용문1
 > > 인용문2
+>>> 인용문2
+
 
 ## 5. 리스트
 
 #### 5-1. 순서없는 리스트는 `*` 를 첫번째에 삽입 <br>
 
-markdown)  <br>
-`* number1` <br>
-`* number2`
+~~~
+* number1
+* number2
+* number3
+~~~
 
 적용예)  <br>
 * number1 
+* number2
 * number2
 
 <br>
 
 #### 5-2. 순서있는 리스트는 `번호.` 를 삽입 <br>
 
-markdown)  <br>
-`1. number1` <br>
-`2. number2`
+~~~
+1. number1
+2. number2
+3. number3
+~~~
 
 적용예)  <br>
 1. number1 
 2. number2
+3. number3
 
 <br>
 
@@ -115,10 +146,11 @@ markdown)  <br>
 
 `-` , `*`, `_`   3개 이상 작성
 
-markdown)  <br>
-`---` <br>
-`***` <br>
-`___` 
+~~~
+---
+***
+___
+~~~
 
 적용예)  <br>
 
