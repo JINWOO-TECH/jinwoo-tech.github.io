@@ -12,7 +12,10 @@ tags: github_블로그_만들기_공통
 
 <br>
 
-## 1. Text 수정
+<h2>
+    <span class = "jjw_h2_style">1. Text 수정 </span>
+</h2>
+
 
 <table id="rwd-table">
   <tbody>
@@ -28,7 +31,9 @@ tags: github_블로그_만들기_공통
   </tbody>
 </table>
 
-## 2. 제목 headers
+<h2>
+    <span class = "jjw_h2_style">2. 제목 headers </span>
+</h2>
 
 `#` 으로 시작하여 `#` 이 늘어날때마다 제목의 수준은 내려 감
 
@@ -47,7 +52,10 @@ tags: github_블로그_만들기_공통
 </table>
 
 
-## 3. Code 박스 
+<h2>
+    <span class = "jjw_h2_style">3. Code 박스  </span>
+</h2>
+
 
 `~~~` 또는 <span style="color: red;" >```</span>  -> 코드 첫줄과 마지막 줄에 삽입
 
@@ -76,7 +84,10 @@ a = "hello word"
 print(a)
 ~~~
 
-## 4. 인용문
+<h2>
+    <span class = "jjw_h2_style">4. 인용문  </span>
+</h2>
+
 ~~~
 > 인용문1 
 >> 인용문2
@@ -88,7 +99,10 @@ print(a)
 >>> 인용문2
 
 
-## 5. 리스트
+<h2>
+    <span class = "jjw_h2_style">5. 리스트  </span>
+</h2>
+
 
 #### 5-1. 순서없는 리스트는 `*` 를 첫번째에 삽입 <br>
 
@@ -120,7 +134,10 @@ print(a)
 
 <br>
 
-## 6. 테이블 
+<h2>
+    <span class = "jjw_h2_style">6. 테이블   </span>
+</h2>
+
 
 아래와 같이 사용
 ~~~
@@ -142,7 +159,11 @@ print(a)
 | total   | 6            | 12          |
 
 <br><br>
-## 수평선
+
+<h2>
+    <span class = "jjw_h2_style">7. 수평선   </span>
+</h2>
+
 
 `-` , `*`, `_`   3개 이상 작성
 
@@ -162,7 +183,12 @@ ___
 
 잘은 안보이지만 생겼습니다
 
-## 9. 이미지 삽입
+
+<h2>
+    <span class = "jjw_h2_style">8. 이미지 삽입   </span>
+</h2>
+
+
 
 저는 assets/imgaes/폴더명 으로 폴더 하나를 생성해서 이미지를 관리하고 있습니다. 아래와 같이 입력하시면 이미지를 가져올 수 있습니다. <br>
 `![Xixia](/assets/images/{폴더명}/{이미지이름}.png)`

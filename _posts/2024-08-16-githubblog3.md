@@ -10,7 +10,10 @@ tags: Github_블로그_만들기_(Hydejack테마)
 > 이번에는 페이지 및 사이드바 메뉴 추가에 대해 알아보도록 하겠습니다. <br>
 > layout 종류는 _layout 폴더 하위에 .html로 구성되어 있습니다.
 
-## Step 1. 사이드바 메뉴 추가 
+<h2>
+    <span class = "jjw_h2_style">Step 1. 사이드바 메뉴 추가 </span>
+</h2>
+
 사이드바 메뉴는 _featured_tags 폴더 하위에 위치하고 있습니다. _featured_tags 폴더 아래 *.md 파일로 작성하면 됩니다. <br>
 가장 중요한 것은 menu 값을 true 설정하는 것 입니다. true로 설정해야 사이드 메뉴에 나옵니다 
 <br><br>
@@ -40,7 +43,10 @@ description: >
 ![Xixia](/assets/images/github_blog/20240816sidebarmenudescription.png)
 
 
-## Step 2. 페이지 추가
+<h2>
+    <span class = "jjw_h2_style">Step 2. 페이지 추가 </span>
+</h2>
+
 페이지 추가는 _posts 하위 폴더에 yyyy-mm-dd-pagename.md 형태로 파일을 생성합니다.
 
 yyyy-mm-dd-pagename.md 예시)

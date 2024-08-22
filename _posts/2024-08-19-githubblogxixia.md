@@ -26,7 +26,10 @@ github repository 생성, 테마 입혀서 local과 github.io에 띄우는 건 h
 
 <br><br>
 
-## Step 1. header.html 파일 수정
+<h2>
+    <span class = "jjw_h2_style">Step 1. header.html 파일 수정 </span>
+</h2>
+
 <input type="checkbox"> _includes 폴더 하위 header.html 코드의 아래 부분을 수정하거나 추가해 줍니다
 
 ```
@@ -51,7 +54,10 @@ github repository 생성, 테마 입혀서 local과 github.io에 띄우는 건 h
 
 <br><br>
 
-## Step 2. 원하는 메뉴.html 파일 생성 및 내용추가 
+<h2>
+    <span class = "jjw_h2_style">Step 2. 원하는 메뉴.html 파일 생성 및 내용추가  </span>
+</h2>
+
 "원하는 메뉴.html"은 메뉴를 클릭하여 페이지로 이동 하였을 때 나오는 화면입니다.
 <br><br>
 <input type="checkbox"> username.github.io 폴더 하위에 {원하는 메뉴명}.html 파일 생성해 줍니다 <br>

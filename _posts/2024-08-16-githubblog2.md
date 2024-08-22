@@ -17,8 +17,10 @@ tags: Github_블로그_만들기_(Hydejack테마)
 요약하자면 github 블로그는 Jekyll이 Ruby로 정적 사이트 생성하고, 로컬에서 Jekyll 서버를 실행해서 개발하면 github에 push를
 하지 않고 실시간으로 결과를 확인 할 수 있기 때문에 Jekyll(지킬)과 Ruby(루비)가 필수입니다.
 <br><br>
- 
-## Step 1. 테마 선택
+
+<h2>
+    <span class = "jjw_h2_style">Step 1. 테마 선택</span>
+</h2>
 
 <input type="checkbox"> http://jekyllthemes.org/ 에서 테마 선택 후 다운
 
@@ -30,7 +32,9 @@ tags: Github_블로그_만들기_(Hydejack테마)
 ![Xixia](/assets/images/github_blog/20240816hydejackpaste.png)
 <br><br>
 
-## Step 2. Ruby 설치 및 인코딩 설정
+<h2>
+    <span class = "jjw_h2_style">Step 2. Ruby 설치 및 인코딩 설정</span>
+</h2>
 
 Ruby는 프로그래밍 언어라고 합니다. jekyll은 ruby로 만들어져 있어 jekyll설치 전 먼저 설치하겠습니다.
 
@@ -55,7 +59,10 @@ chcp 65001 명령어 입력 후 아래 사진 나오면 인코딩 설정 완료
 ![Xixia](/assets/images/github_blog/20240816rubyencoding.png)
 <br><br>
 
-## Step 3. jekyll 설치 및 사이트 생성 
+<h2>
+    <span class = "jjw_h2_style">Step 3. jekyll 설치 및 사이트 생성 </span>
+</h2>
+
 <input type="checkbox"> jekyll 및 bundle 설치 (ruby 명령어창)
 
 ```
@@ -82,7 +89,9 @@ bundle exec jekyll serve
 
 <br><br>
 
-## Step 4. _config,yml 파일 수정
+<h2>
+    <span class = "jjw_h2_style">Step 4. _config,yml 파일 수정 </span>
+</h2>
 
 ```
 # url 설정 안할 시 테마 적용 안됨!
@@ -98,7 +107,10 @@ description:           >
 등등 설정을 해주시면 됩니다!
 <br><br>
 
-## Step 5. push후 확인
+<h2>
+    <span class = "jjw_h2_style">Step 5. push후 확인 </span>
+</h2>
+
 git에 push를 해줍니다. push가 완료되어도 바로 적용이 안되서 살짝 기다려야 됩니다! (이래서 local에서 실시간으로 볼 수 있게 jekyll 사용하는 듯)
 <br>
 <input type="checkbox"> https://username.github.io/ 에 접속
