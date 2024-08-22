@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github 블로그 만들기 (xixia 테마) - [1]
+title: Github 블로그 만들기 (xixia 테마) - 메뉴바 및 서브메뉴 만들기
 description: >
   테마 적용
 categories: github_blog

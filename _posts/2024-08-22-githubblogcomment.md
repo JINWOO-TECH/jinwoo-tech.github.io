@@ -102,4 +102,3 @@ class 이름으로 검색했습니다. 저는 _layouts/post.html 파일을 수�
 ![Xixia](/assets/images/github_blog/20240822utterancesfindhtml.png)
 
 ![Xixia](/assets/images/github_blog/20240822utterancesend.png)
-
