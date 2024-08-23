@@ -23,9 +23,12 @@ AdSense를 통해 사이트 소유자는 사이트에 맞는 광고를 자동으
 ![Xixia](/assets/images/github_blog/20240823adsense.png)
 
 <br>
-<input type="checkbox">  시작하기 클릭 후 내용 채우기 및 스크립트 추가하기 
+<input type="checkbox">  정보 입력 및 광고 설정하기 
 ![Xixia](/assets/images/github_blog/20240823adsense2.png)
-개인정보 입력 및 광고 표기를 설정하면 검색엔진 설정했을 때와 마찬가지로 사이트 소유권을 확인해야한다. <br>
+
+<br>
+<input type="checkbox">  스크립트 삽입하기
+사이트 소유권을 확인해야한다.
 이번에는 `<head></head>` 태그 사이에 스크립트를 심어야 돼서 `_includes/header.html` 에 스크립트를 추가하면된다
 <br>
 
