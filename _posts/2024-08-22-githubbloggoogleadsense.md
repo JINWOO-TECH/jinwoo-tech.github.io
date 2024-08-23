@@ -27,7 +27,7 @@ AdSense를 통해 사이트 소유자는 사이트에 맞는 광고를 자동으
 ![Xixia](/assets/images/github_blog/20240823adsense2.png)
 
 <br>
-<input type="checkbox">  스크립트 삽입하기
+<input type="checkbox">  스크립트 삽입하기 <br>
 사이트 소유권을 확인해야한다.
 이번에는 `<head></head>` 태그 사이에 스크립트를 심어야 돼서 `_includes/header.html` 에 스크립트를 추가하면된다
 <br>
