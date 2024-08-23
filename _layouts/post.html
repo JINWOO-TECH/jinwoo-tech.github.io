@@ -8,6 +8,10 @@ layout: default
             {% assign date_format = site.date_format.title %}
             {{ page.date | date: date_format }}
         </span>
+        <a href="https://jinwoo-tech.github.io/"target="_blank">
+        <img
+            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%23293786&title_bg=%23555555&icon=micro-dot-blog.svg&icon_color=%23E7E7E7&title=Visitors&edge_flat=false"/>
+        </a>
         <hr style="border-top:1px solid #28323C;"/>
     {% if site.comments and page.comments %}
         {% if site.disqus != '' %}
