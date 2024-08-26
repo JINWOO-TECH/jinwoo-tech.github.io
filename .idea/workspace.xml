@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="" />
+    <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +25,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kev12/OneDrive/바탕 화면/study/github_page/jinwoo-tech.github.io/_posts&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kev12/OneDrive/바탕 화면/study/github_page/jinwoo-tech.github.io"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kev12\OneDrive\바탕 화면\study\github_page\jinwoo-tech.github.io\_posts" />
       <recent name="C:\Users\kev12\OneDrive\바탕 화면\study\github_page\jinwoo-tech.github.io" />
+      <recent name="C:\Users\kev12\OneDrive\바탕 화면\study\github_page\jinwoo-tech.github.io\_posts" />
       <recent name="C:\Users\kev12\OneDrive\바탕 화면\study\github_page\jinwoo-tech.github.io\assets\css" />
       <recent name="C:\Users\kev12\OneDrive\바탕 화면\study\github_page\jinwoo-tech.github.io\assets" />
       <recent name="C:\Users\kev12\OneDrive\바탕 화면\study\github_page\temp_jinwoo-tech.github.io\_posts" />
