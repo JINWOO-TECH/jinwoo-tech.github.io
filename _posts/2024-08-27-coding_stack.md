@@ -85,7 +85,7 @@ print(result)  # Abcde
     {% assign mydata = site.posts | where: "categories", "programming" %}
     {% assign has_content = "False" %}
       <h2>
-    <span class = "jjw_h2_style"> Stack 코딩테스트 예시 </span> <br><br>
+    <span class = "jjw_h2_style"> 프로그래머스 예시 </span> <br><br>
       </h2>
       {% for data in mydata %}
          {% if data.tags[0] contains "stack" %}
