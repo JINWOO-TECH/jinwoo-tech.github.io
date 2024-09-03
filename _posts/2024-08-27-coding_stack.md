@@ -2,7 +2,7 @@
 layout: post
 title: 2. 코딩테스트 기초(python) - stack
 description: >
-  자주 사용되는 라이브러리
+  코테 기초 stack
 categories: programming
 tags: 코딩테스트_기초_python
 ---
@@ -23,7 +23,7 @@ tags: 코딩테스트_기초_python
 <br><br>
 
 <h2>
-    <span class = "jjw_h2_style"> Stack 코딩테스트 예시 </span>
+    <span class = "jjw_h2_style"> Stack  예시 </span>
 </h2>
 
 문제 : 문자열 편집기
@@ -38,7 +38,7 @@ tags: 코딩테스트_기초_python
 > 출력된 문자열: "Abcde" <br>
 ~~~
 
-1. 로직 생각하기 <br>
+1. 아이디어 생각하기 <br>
 문자열을 순차적으로 처리하고, 커서의 좌우를 stack 두개를 사용하여 관리 
 
 2. 두 개 스택 준비
