@@ -38,3 +38,20 @@ AdSense를 통해 사이트 소유자는 사이트에 맞는 광고를 자동으
 <br><br>
 <input type="checkbox">  검토 기다리기...
 ![Xixia](/assets/images/github_blog/20240823adsense5.png)
+
+<br>
+약 2주뒤!!<br>
+![Xixia](/assets/images/github_blog/20240904adsenseaprove.png)
+
+
+<input type="checkbox">  ads.txt 파일 등록하기
+승인 후 google adsense에 들어가면 아래처럼 ads.txt파일 문제를 해결하라고 나옵니다
+![Xixia](/assets/images/github_blog/20240904adsenseafirstpage.png)
+
+[ads.txt 파일 추가하기](https://support.google.com/adsense/answer/12171244)
+루드 디렉토리에 **ads.txt** 파일을 만들어주고 아래의 내용을 붙여넣습니다 
+> google.com, pub-0000000000000000, DIRECT, xxxxxxxxxxxxxxxxx <br>
+
+여기서 pub-0000000000000000은 게시자 ID입니다.<br>
+xxxxxxxxxxxxxxxxx 이 부분은 'ads.txt 파일 추가하기' 링크 클릭후 확인해 주세요.
+
