@@ -51,3 +51,7 @@
   margin-bottom: 20px; /* 아래쪽 여백 추가 */
   transition: background-color 0.3s, color 0.3s; /* 배경색과 텍스트 색상에 부드러운 전환 효과 추가 */
 }
+
+.jjw_line{
+    background-color: yellow;
+}

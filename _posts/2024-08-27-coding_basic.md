@@ -39,6 +39,11 @@ print(eval_result) # 15
     <span class = "jjw_h2_style">step 2. sorted 함수 </span>
 </h2>
 <br>
+Python의 내장 sorted() 함수는 Timsort 알고리즘을 사용합니다. <br> 
+Timsort는 Merge Sort와 Insertion Sort의 아이디어를 결합한 하이브리드 정렬 알고리즘입니다. <br>
+Merge Sort: 리스트를 절반으로 나누어 각각 정렬한 후, 다시 병합하는 방식입니다. 병합하는 과정에서 비교가 이루어지며, 전체 시간 복잡도는 **O(n log n)**입니다. <br>
+Insertion Sort: 작은 배열의 경우, 삽입 정렬이 더 빠르게 작동합니다. 삽입 정렬은 리스트가 거의 정렬된 경우에 매우 효율적이며 **O(n)**의 시간 복잡도를 가집니다. <br>
+따라서 시간복잡도는 최선의 경우는 **O(n)**, 평균 및 최악의 경우인 경우는 **O(n log n)** 입니다
 
 ~~~python
 result = [3,1,2,4,7,5,6]
