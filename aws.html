@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="well article">
+  {% assign github_blog_posts = site.posts | where: "categories", "aws" %}
+  {% assign tags = "" | split: "" %}
+
+  {% for post in github_blog_posts %}
+    {% assign post_tags = post.tags %}
+    {% for tag in post_tags %}
+      {% unless tags contains tag %}
+        {% assign tags = tags | push: tag %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign sorted_tags = tags | sort %}
+
+  {% for tag in sorted_tags %}
+    <h2 id="tag-{{ tag | slugify }}">{{ tag | capitalize }}</h2>
+    <ul>
+      {% for post in github_blog_posts %}
+        {% if post.tags contains tag %}
+          <li>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
