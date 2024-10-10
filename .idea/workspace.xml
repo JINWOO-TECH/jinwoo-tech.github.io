@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2024-09-25-airflow_docker_install.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2024-09-25-airflow_install.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
