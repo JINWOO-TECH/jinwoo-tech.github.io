@@ -5,8 +5,9 @@ categories: data_engineering
 tags: Docker
 description: AWS EC2에 Docker,docker-compose 설치 & 명령어
 ---
-<h3>전제조건</h3>
-AWS EC2서버<br>
+<h4>전제조건</h4>
+> AWS EC2서버
+
 [AWS EC2서버 생성하는 법 보러가기](/aws/2024/09/25/aws_create_ec2.html)
 
 <h2>
@@ -64,6 +65,11 @@ docker ps
 # 도커 이미지 확인
 docker images
 
+# 도커 컨테이너 삭제
+docker rm {container-id}
+
+# 도커 이미지 삭제
+docker rmi {image-id}
 ~~~
 
 
