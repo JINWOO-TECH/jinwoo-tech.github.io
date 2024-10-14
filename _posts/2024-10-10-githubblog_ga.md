@@ -2,7 +2,7 @@
 layout: post
 title: Github 블로그 만들기 (Google Analytics)
 description: >
-  테마 적용
+  git hub 블로그에 GA 연결하기
 categories: github_blog
 tags: github_블로그_만들기_공통
 ---
@@ -56,5 +56,15 @@ Analytics를 사용하면 방문자 수, 페이지 뷰, 이탈률, 유입 경로
     <span class = "jjw_h2_style">step 2. head에 script 붙여 넣기 </span>
 </h2>
 <br>
+![Xixia](/assets/images/github_blog/20241010ga7.png)
 Google Analytics를 다 설정하고나면, 위의 그림과 같이 Google 태그 설정이 보여집니다. 태그를 복사해서 `_ includes/header.html` 
-파일의 `<head>` 태그 안에 추가 해줍니다. 
+파일의 `<head>` 태그 안에 추가 해줍니다. 추가 후 우측 상단 `설치 테스트`를 클릭해 줍니다.
+
+<br>
+
+<h2>
+    <span class = "jjw_h2_style">step 3. 사용자 수 확인하기 </span>
+</h2>
+<br>
+![Xixia](/assets/images/github_blog/20241010ga8.png)
+그림과 같이 활성 사용자가 찍히면 완료입니다!
