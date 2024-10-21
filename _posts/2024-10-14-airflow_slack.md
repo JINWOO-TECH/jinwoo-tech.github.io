@@ -156,4 +156,4 @@ error_call_v1 = error_call_v1()
 ~~~
 
 slack에 error 전달
-![Xixia](/assets/images/dataengineer/20241014slackcreateapp8.png)
+![Xixia](/assets/images/dataengineer/20241014slackcreateapp9.png)

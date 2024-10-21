@@ -6,7 +6,7 @@ description: >
   (코딩테스트_복기 / python3) - 추출 순서
 
 categories: programming
-tags: 코딩테스트_문제_python_heapq
+tags: 코딩테스트_문제_python_우선순위큐
 ---
 
 <h2>
