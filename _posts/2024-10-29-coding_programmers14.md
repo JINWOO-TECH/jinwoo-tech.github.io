@@ -37,11 +37,11 @@ Finn은 편의점에서 야간 아르바이트를 하고 있습니다. 야간에
 
 2. 각 동전별로 경우의 수 계산:
    * 보유하고 있는 동전 종류별로 반복문을 돌며, 특정 동전을 사용할 때 가능한 경우의 수를 누적해서 계산합니다.
-   * 예를 들어, 1원짜리 동전부터 시작하면 dp[1], dp[2]...를 각각 1원짜리 동전 하나를 사용해 만들 수 있는 경우의 수로 업데이트합니다.
+   * 예를 들어, 1원짜리 동전부터 시작하면 dp[1], dp[2]…를 각각 1원짜리 동전 하나를 사용해 만들 수 있는 경우의 수로 업데이트합니다.
 
 3. 동전을 활용해 가능한 금액 계산:
    * 각 동전 m을 기준으로, m원부터 n원까지 순회하며 dp[price]를 업데이트합니다. 여기서 dp[price] += dp[price - m]을 수행하여, price 금액을 만들 수 있는 경우의 수를 계속 누적합니다.
-   * 예를 들어, 현재 동전이 2원일 때 price가 4원이라면, dp[4]는 2원을 만들 수 있는 방법이 추가되므로 dp[4]에 dp[4 - 2]을 더하여 값을 누적합니다.
+   *예를 들어, 현재 동전이 2원일 때 price가 4원이라면, dp[4]는 2원을 만들 수 있는 방법이 추가되므로 dp[4]에 dp[4 - 2]을 더하여 값을 누적합니다.
 
 4. 최종 답 구하기:
    * 최종적으로 dp[n]에는 n원을 만드는 모든 경우의 수가 저장됩니다.
@@ -54,20 +54,28 @@ Finn은 편의점에서 야간 아르바이트를 하고 있습니다. 야간에
 </h2>
 
 ~~~python
-def solution(n, money):    
-    # n+1 크기의 DP 테이블 생성 (0 ~ n)
-    dp = [0] * (n + 1)
+def solution(s):
+    answer = []
+    # Step 1: 문자열을 '},' 기준으로 분리하여 각 원소 집합을 나눔
+    split_list = s.split('},')
     
-    # 초기값: 0원을 만드는 방법은 1가지 (아무 동전도 사용하지 않음)
-    dp[0] = 1
+    trans_list = []
+    # Step 2: 중괄호 제거 후, 각 집합을 개별 숫자 리스트로 변환
+    for s in split_list:
+        trans_list.append(s.replace('{','').replace('}','').split(','))
     
-    # 각 동전을 사용하여 경우의 수 갱신
-    for m in money:
-        for price in range(m, n+1):
-            dp[price] += dp[price - m]
+    # Step 3: 원소의 개수에 따라 정렬하여 순서를 맞춤
+    sorted_list = sorted(trans_list, key=lambda x: len(x))
     
-    # 최종 결과를 1000000007로 나눈 나머지 반환
-    return dp[-1] % 1000000007
+    # Step 4: 중복되지 않은 원소만 answer에 추가
+    for s_list in sorted_list:
+        for s in s_list:
+            if int(s) not in answer:
+                answer.append(int(s))
+                continue
+                
+    return answer
+
 
 ~~~
 
