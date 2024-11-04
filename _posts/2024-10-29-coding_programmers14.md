@@ -54,27 +54,18 @@ Finn은 편의점에서 야간 아르바이트를 하고 있습니다. 야간에
 </h2>
 
 ~~~python
-def solution(s):
-    answer = []
-    # Step 1: 문자열을 '},' 기준으로 분리하여 각 원소 집합을 나눔
-    split_list = s.split('},')
+def solution(n, money):
+    answer = 0
     
-    trans_list = []
-    # Step 2: 중괄호 제거 후, 각 집합을 개별 숫자 리스트로 변환
-    for s in split_list:
-        trans_list.append(s.replace('{','').replace('}','').split(','))
+    dp = [0] * (n + 1)
     
-    # Step 3: 원소의 개수에 따라 정렬하여 순서를 맞춤
-    sorted_list = sorted(trans_list, key=lambda x: len(x))
+    dp[0] = 1
     
-    # Step 4: 중복되지 않은 원소만 answer에 추가
-    for s_list in sorted_list:
-        for s in s_list:
-            if int(s) not in answer:
-                answer.append(int(s))
-                continue
-                
-    return answer
+    for m in money:
+        for price in range(m, n+1):
+            dp[price] += dp[price - m]
+    
+    return dp[-1] % 1000000007
 
 
 ~~~
