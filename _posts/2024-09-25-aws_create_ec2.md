@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS 프리티어 사용하기 - EC2서버 생성 및 접속"
+title:  "(1) AWS 프리티어 사용하기 - EC2서버 생성 및 접속"
 categories: aws
 tags: AWS_프리티어
 description: AWS 프리티어 사용하기 - EC2서버 생성 및 접속

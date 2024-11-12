@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(6)Airflow gitlab-runner 연동"
+title:  "(6) Airflow gitlab-runner 연동"
 categories: data_engineering
 tags: Airflow
 description: Airflow gitlab-runner 연동해서 형상관리 가능하게 하기

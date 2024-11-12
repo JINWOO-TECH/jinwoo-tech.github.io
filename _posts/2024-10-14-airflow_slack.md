@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(5)Airflow Slack 알람"
+title:  "(5) Airflow Slack 알람"
 categories: data_engineering
 tags: Airflow
 description: Airflow Slack 알람

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "(2)Airflow taskflow API"
+title:  "(2) Airflow taskflow API"
 categories: data_engineering
 tags: Airflow
 description: Airflow taskflow API
