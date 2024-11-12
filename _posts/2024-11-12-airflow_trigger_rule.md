@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Airflow Task trigger rule"
+title:  "(8)Airflow Task trigger rule"
 categories: data_engineering
 tags: Airflow
 description: Airflow Task Trigger Rule For Taskflow API

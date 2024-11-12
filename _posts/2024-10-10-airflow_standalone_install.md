@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Airflow standalone 실행"
+title:  "(4)Airflow standalone 실행"
 categories: data_engineering
 tags: Airflow
 description: Airflow standalone 실행
