@@ -23,7 +23,7 @@ layout: default
       {% for post in github_blog_posts %}
         {% if post.tags contains tag %}
           <li>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+<!--            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>-->
             <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endif %}
