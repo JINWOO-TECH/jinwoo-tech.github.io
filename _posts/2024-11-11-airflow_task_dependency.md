@@ -182,7 +182,10 @@ Airflow에서는 각 작업을 `>>`, `<<` 연산자 또는 `set_downstream`, `se
       def task2(**context):
           print('task2')
   
-      task1() >> task2()
+      @task
+      def task3(**context):
+          print('task3')
+      [task1(), task2()] >> task3()
   
   dag = dependency_test()
   ~~~
