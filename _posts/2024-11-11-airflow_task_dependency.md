@@ -51,9 +51,9 @@ Airflow에서는 각 작업을 `>>`, `<<` 연산자 또는 `set_downstream`, `se
 
 <br>
 
-* 단순 병렬 실행
-  ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency4.png)<br>
-  <br>
+* 단순 병렬 실행 <br><br>
+  ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency4.png)
+  <br><br>
    ~~~python
    from airflow.decorators import dag, task, task_group
    from datetime import datetime
@@ -87,7 +87,7 @@ Airflow에서는 각 작업을 `>>`, `<<` 연산자 또는 `set_downstream`, `se
    ~~~
 <br>
 
-* 선형 의존성
+* 선형 의존성 <br><br>
   ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency1.png)
   <br><br>
    ~~~python
@@ -120,8 +120,8 @@ Airflow에서는 각 작업을 `>>`, `<<` 연산자 또는 `set_downstream`, `se
    ~~~
 <br>
 
-* 팬아웃(일 대 다) 의존성
-  ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency2.png) <br>
+* 팬아웃(일 대 다) 의존성 <br><br>
+  ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency2.png) <br><br>
   ~~~python
   from airflow.decorators import dag, task, task_group
   from datetime import datetime
@@ -156,8 +156,8 @@ Airflow에서는 각 작업을 `>>`, `<<` 연산자 또는 `set_downstream`, `se
   ~~~
 <br>
 
-* 팬인(다 대일) 의존성 
-  ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency3.png) <br>
+* 팬인(다 대일) 의존성 <br><br>
+  ![Xixia](/assets/images/dataengineer/20241112airflowtaskdependency3.png)<br><br>
   ~~~python
   from airflow.decorators import dag, task, task_group
   from datetime import datetime
