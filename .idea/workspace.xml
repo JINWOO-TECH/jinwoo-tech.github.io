@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2024-11-15-airflow_s3_by_hook.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-11-15-airflow_s3_by_hook.md" afterDir="false" />
-    </list>
+    <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

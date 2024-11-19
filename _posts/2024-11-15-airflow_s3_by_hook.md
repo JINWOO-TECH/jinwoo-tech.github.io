@@ -5,8 +5,8 @@ categories: data_engineering
 tags: Airflow
 description: Airflow s3로 파일 업로드 및 다운 (Airflow S3 Hook) for Taskflow API
 ---
-> 방법1. <a href="{{ site.baseurl }}/github_blog/2024/11/15/airflow_s3_by_hook.html">Airflow S3 `Hook` 사용하기 </a> <br>
-> 방법2. <a href="{{ site.baseurl }}/github_blog/2024/11/15/airflow_s3_by_hook.html">Airflow S3 `boto` 사용하기 </a> <br>
+> 방법1. <a href="{{ site.baseurl }}/data_engineering/2024/11/15/airflow_s3_by_hook.html">Airflow S3 `Hook` 사용하기 </a> <br>
+> 방법2. <a href="{{ site.baseurl }}/data_engineering/2024/11/15/airflow_s3_by_hook.html">Airflow S3 `boto` 사용하기 </a> <br>
 
 <hr>
 
