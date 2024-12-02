@@ -2,7 +2,7 @@
 layout: post
 title:  "(9) Airflow Task간 데이터 공유 - Xcom"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow Task간 데이터 공유(Xcom) for Taskflow API
 ---
 

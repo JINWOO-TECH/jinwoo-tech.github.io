@@ -2,7 +2,7 @@
 layout: post
 title:  "(5) Airflow Slack 알람"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow Slack 알람
 ---
 > aws 프리티어로 airflow 사용하시는 분들은 아마 webserver와 scheduler 두 개를 띄우면 서버가 터질겁니다.... <br>

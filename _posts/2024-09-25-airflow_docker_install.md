@@ -2,7 +2,7 @@
 layout: post
 title:  "(3) Airflow AWS EC2에 Docker로 설치하기"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow AWS EC2에 Docker로 설치
 ---
 

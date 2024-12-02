@@ -2,7 +2,7 @@
 layout: post
 title:  "(7) Airflow Task간 의존성"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow Task Dependency For Taskflow API
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "(6) Airflow gitlab-runner 연동"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow gitlab-runner 연동해서 형상관리 가능하게 하기
 ---
 > 여러 사람이 Airflow 코드를 사용할 때, MWAA처럼 코드를 S3에 직접 업로드해야 하거나, EC2에 Docker 등을 사용해 직접 운영하는 경우 코드 형상 관리에 어려움을 겪었을 것입니다. <br>

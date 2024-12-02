@@ -2,7 +2,7 @@
 layout: post
 title:  "(4) Airflow standalone 실행"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow standalone 실행
 ---
 

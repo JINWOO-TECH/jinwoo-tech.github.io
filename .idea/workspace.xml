@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="" />
+    <list default="true" id="e96da6d5-76af-4380-9c4e-a4eb09562ff5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-09-12-airflow_scheduling.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-09-12-airflow_scheduling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-09-13-airflow_taskflowAPI.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-09-13-airflow_taskflowAPI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-09-25-airflow_docker_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-09-25-airflow_docker_install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-10-10-airflow_standalone_install.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-10-10-airflow_standalone_install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-10-14-airflow_slack.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-10-14-airflow_slack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-10-18-airflow_gitlab-runner.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-10-18-airflow_gitlab-runner.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-11-11-airflow_task_dependency.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-11-11-airflow_task_dependency.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-11-12-airflow_trigger_rule.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-11-12-airflow_trigger_rule.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-11-13-airflow_xcom.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-11-13-airflow_xcom.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-11-15-airflow_s3_by_hook.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-11-15-airflow_s3_by_hook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2024-11-19-airflow_s3_by_boto.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-11-19-airflow_s3_by_boto.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

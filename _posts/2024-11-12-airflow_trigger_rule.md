@@ -2,7 +2,7 @@
 layout: post
 title:  "(8) Airflow Task trigger rule"
 categories: data_engineering
-tags: Airflow
+tags: Apache_Airflow
 description: Airflow Task Trigger Rule For Taskflow API
 ---
 
